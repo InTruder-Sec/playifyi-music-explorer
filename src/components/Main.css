@@ -1,0 +1,87 @@
+.main {
+  padding-top: 30px;
+  margin-left: 270px;
+  height: 100%;
+}
+
+.main--hide {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.loadingWindow {
+  height: 25px;
+  margin-top: 60px;
+  width: 200px;
+  background: #ffffff;
+  background: linear-gradient(150deg, #181818 8%, #282828 18%, #181818 33%);
+  border-radius: 5px;
+  background-size: 200% 100%;
+  animation: 1.5s shine linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position-x: -200%;
+  }
+}
+
+.main--category--head {
+  text-align: left;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 60px;
+  width: fit-content;
+}
+
+.main--category--more::before {
+  content: "Show all";
+}
+
+.main--category--head:hover {
+  text-decoration: underline;
+}
+
+.main--category--cards {
+  margin-left: 20px;
+  height: 240px;
+  overflow: hidden;
+  text-align: left;
+  transition: 0.6s;
+}
+
+.main--category--more {
+  position: absolute;
+  right: 60px;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+}
+
+.loadingMore {
+  position: absolute;
+  right: 60px;
+  font-size: 12px;
+  font-weight: 600;
+  height: 25px;
+  width: 100px;
+  cursor: pointer;
+  background: #ffffff;
+  background: linear-gradient(150deg, #181818 8%, #282828 18%, #181818 33%);
+  border-radius: 5px;
+  background-size: 200% 100%;
+  animation: 1.5s shine linear infinite;
+}
+
+.endline {
+  width: 96%;
+  margin-top: 60px;
+  opacity: 0.6;
+  margin-right: 40px;
+}
