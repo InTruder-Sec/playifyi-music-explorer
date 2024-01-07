@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a4f07268.css",
+    "main.js": "/static/js/main.9b8b156c.js",
+    "static/media/MadeForYou.png": "/static/media/MadeForYou.e891cfd68a52b5065f92.png",
+    "static/media/clock.png": "/static/media/clock.82d1afcbddef2aa1ce4d.png",
+    "static/media/liveEvents.jpg": "/static/media/liveEvents.258572bf203a7f7a942d.jpg",
+    "static/media/Hindi.jpeg": "/static/media/Hindi.6a284e80f424e72cd863.jpeg",
+    "static/media/mainPlay.png": "/static/media/mainPlay.f654f1b7d4c5e93ec556.png",
+    "static/media/Tamil.jpeg": "/static/media/Tamil.185d88c7253cca8d43e3.jpeg",
+    "static/media/Charts.jpg": "/static/media/Charts.740a13044ad52ee5cc79.jpg",
+    "static/media/Pop.jpeg": "/static/media/Pop.871491a4565fd366914c.jpeg",
+    "static/media/logo.png": "/static/media/logo.b5b8054f3ddb604ada7f.png",
+    "static/media/NewRelease.jpeg": "/static/media/NewRelease.960d081ba2cbf1c7ef32.jpeg",
+    "static/media/more.png": "/static/media/more.5d7e522e6c10d1985f0c.png",
+    "static/media/Podcasts.jpeg": "/static/media/Podcasts.e49782c93207577f0fff.jpeg",
+    "static/media/love.jpeg": "/static/media/love.107ebe4319b8b8dad4da.jpeg",
+    "index.html": "/index.html",
+    "main.a4f07268.css.map": "/static/css/main.a4f07268.css.map",
+    "main.9b8b156c.js.map": "/static/js/main.9b8b156c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4f07268.css",
+    "static/js/main.9b8b156c.js"
+  ]
+}
