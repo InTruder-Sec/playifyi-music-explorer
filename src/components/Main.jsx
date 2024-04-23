@@ -67,7 +67,7 @@ function Main(props) {
             return {
               ...prevtitle,
               trending: {
-                t: category.categories.items[0].name,
+                t: category.categories.items[3].name,
                 Cards: Response,
               },
             };
@@ -105,7 +105,7 @@ function Main(props) {
         });
 
         ShowAll = (e, limit) => {
-          if (e === 0) {
+          if (e === 3) {
             GetCategorySongs(
               Response.access_token,
               category.categories.items[e].id,
