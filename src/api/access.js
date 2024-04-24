@@ -16,7 +16,7 @@ async function GetToken() {
 
 async function GetCategories(TOKEN) {
   const response = await fetch(
-    "https://api.spotify.com/v1/browse/categories?country=IN&limit=3",
+    "https://api.spotify.com/v1/browse/categories?country=IN&limit=4",
     {
       headers: {
         Authorization: `Bearer ${TOKEN}`,

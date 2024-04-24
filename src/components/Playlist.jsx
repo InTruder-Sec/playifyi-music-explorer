@@ -11,12 +11,14 @@ function Playlist(props) {
   let isDataLoaded;
   const data = useContext(playlistData);
   var randomColor = Math.floor(Math.random() * 16777215).toString(16);
+
+  var color;
   if (data === "") {
     isDataLoaded = false;
-    var color = "linear-gradient(#000000 , #292929)";
+    color = "linear-gradient(#000000 , #292929)";
   } else {
     isDataLoaded = true;
-    var color = "linear-gradient(#" + randomColor + ", #292929)";
+    color = "linear-gradient(#" + randomColor + ", #292929)";
   }
   let PlaylistLength;
   let playlistTable;

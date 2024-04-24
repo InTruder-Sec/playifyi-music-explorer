@@ -45,7 +45,7 @@ function Main(props) {
           return {
             ...prevtitle,
             trending: {
-              t: category.categories.items[0].name,
+              t: category.categories.items[3].name,
               Cards: {},
             },
             playlist: {
@@ -60,7 +60,7 @@ function Main(props) {
         });
         GetCategorySongs(
           Response.access_token,
-          category.categories.items[0].id,
+          category.categories.items[3].id,
           LimitCards
         ).then((Response) => {
           setTitle((prevtitle) => {
