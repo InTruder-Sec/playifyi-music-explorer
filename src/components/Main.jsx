@@ -105,17 +105,18 @@ function Main(props) {
         });
 
         ShowAll = (e, limit) => {
-          if (e === 3) {
+          console.log(e);
+          if (e === 0) {
             GetCategorySongs(
               Response.access_token,
-              category.categories.items[e].id,
+              category.categories.items[3].id,
               limit
             ).then((Response) => {
               setTitle((prevtitle) => {
                 return {
                   ...prevtitle,
                   trending: {
-                    t: category.categories.items[e].name,
+                    t: category.categories.items[3].name,
                     Cards: Response,
                   },
                 };
